@@ -2,8 +2,7 @@ pragma solidity ^0.4.18;
 contract IncrementValue {
     address owner;
     uint variable;
-
-
+    
     function IncrementValue() public {
         owner = msg.sender;
         variable = 10;
