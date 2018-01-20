@@ -14,8 +14,7 @@ contract IncrementValue {
         return variable;
     }
     function kill() public {
-        if(msg.sender == owner) {
+        if(msg.sender == owner) 
         selfdestruct(owner);
         }
-    }
 }
