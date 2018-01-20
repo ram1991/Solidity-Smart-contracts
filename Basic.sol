@@ -48,4 +48,10 @@ contract Basic {
      function getCurrentBlance() constant returns(uint){
         return this.balance;
      }
+     
+     function kill() {
+     if(msg.sender == owner)
+     selfdestruct(owner);
+     }
 }
+     
