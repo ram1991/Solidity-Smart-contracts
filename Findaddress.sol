@@ -13,8 +13,7 @@ contract MyFirstContract {
     }
     
      function kill() public {
-        if(msg.sender == owner) {
+        if(msg.sender == owner) 
             suicide(msg.sender);
-        }
     }
 }
