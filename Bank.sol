@@ -18,7 +18,7 @@ function numberOfTimesAmountDeposited() constant returns (uint) {
     return amount;
     }
 
-function kill(){
+function kill() {
     if(msg.sender == owner)
     selfdestruct(owner); 
     }
