@@ -150,7 +150,5 @@ contract RentABook {
        student = address(0);
        rentalDate = 0;
        returnDate = 0;
-   }
-   
-   
+   }   
 }
