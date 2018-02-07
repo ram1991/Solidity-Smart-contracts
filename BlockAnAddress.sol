@@ -8,9 +8,9 @@ contract BlockAnAddress {
     
     mapping(address => Person) public blocked;
     
-    function Blocked() {
-        
+    function Blocked() {        
     }
+    
     function BlockPerson(address _listOfAddress) public  {
        blocked[_listOfAddress].addressOfPerson = _listOfAddress;
        blocked[_listOfAddress].numberOfTimes += 1;
